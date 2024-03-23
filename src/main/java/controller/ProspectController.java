@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/prospects")
+@RequestMapping("/")
 public class ProspectController {
     @GetMapping
     public String getProspects(){
